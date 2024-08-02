@@ -56,7 +56,7 @@ def save_to_sqlite(data):
 # Streamlit app
 def main():
     st.title("Team Selection App")
-    st.image("teamselectorapp.jfif", width=100)
+    st.image("teamselectorapp.jpg", width=100)
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
